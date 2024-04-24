@@ -181,8 +181,8 @@ def plot_training(hist):
     index_acc = np.argmax(val_acc)
     acc_highest = val_acc[index_acc]
     Epochs = [i+1 for i in range(len(tr_acc))]
-    loss_label = f'best epoch= {str(index_loss + 1)}'
-    acc_label = f'best epoch= {str(index_acc + 1)}'
+    # loss_label = f'best epoch= {str(index_loss + 1)}'
+    # acc_label = f'best epoch= {str(index_acc + 1)}'
 
     # Plot training history
     plt.figure(figsize= (20, 8))
